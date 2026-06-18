@@ -6,3 +6,6 @@ Resources:
     Properties:
       TopicName: codekeeper-cfn-test-alerts
       DisplayName: Initial display name
+      Tags:
+        - Key: RepositoryId
+          Value: amsgitops/codekeeper-cfn-test
