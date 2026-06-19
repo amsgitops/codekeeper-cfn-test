@@ -1,4 +1,4 @@
-  {
+{
     "AWSTemplateFormatVersion": "2010-09-09",
     "Description": "JSON CFN test fixture for CodeKeeper agent E2E",
     "Resources": {
@@ -6,7 +6,7 @@
         "Type": "AWS::SNS::Topic",
         "Properties": {
           "TopicName": "codekeeper-cfn-json-test-alerts",
-          "DisplayName": "Initial JSON display name",
+          "DisplayName": "Scenario 14 — json happy path 1781844139",
           "Tags": [ 
             {"Key": "RepositoryId", "Value": "amsgitops/codekeeper-cfn-test"}
           ]
