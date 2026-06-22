@@ -5,7 +5,7 @@ Resources:
     Type: AWS::SNS::Topic
     Properties:
       TopicName: codekeeper-cfn-test-alerts
-      DisplayName: Initial display name
+      DisplayName: H1+H3+H4 yaml regression 1782104343
       Tags:
         - Key: RepositoryId
           Value: amsgitops/codekeeper-cfn-test
