@@ -1,16 +1,16 @@
-  {
-    "AWSTemplateFormatVersion": "2010-09-09",
-    "Description": "JSON CFN test fixture for CodeKeeper agent E2E",
-    "Resources": {
-      "JsonTestAlertsTopic": {
-        "Type": "AWS::SNS::Topic",
-        "Properties": {
-          "TopicName": "codekeeper-cfn-json-test-alerts",
-          "DisplayName": "Initial JSON display name",
-          "Tags": [ 
-            {"Key": "RepositoryId", "Value": "amsgitops/codekeeper-cfn-test"}
-          ]
-        }
+{
+  "AWSTemplateFormatVersion": "2010-09-09",
+  "Description": "JSON CFN test fixture for CodeKeeper agent E2E",
+  "Resources": {
+    "JsonTestAlertsTopic": {
+      "Type": "AWS::SNS::Topic",
+      "Properties": {
+        "TopicName": "codekeeper-cfn-json-test-alerts",
+        "DisplayName": "CodeKeeper CFN json E2E 1782144540",
+        "Tags": [ 
+          {"Key": "RepositoryId", "Value": "amsgitops/codekeeper-cfn-test"}
+        ]
       }
     }
-  } 
+  }
+}
