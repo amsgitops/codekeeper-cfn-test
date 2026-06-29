@@ -5,7 +5,7 @@ Resources:
     Type: AWS::SNS::Topic
     Properties:
       TopicName: codekeeper-cfn-test-alerts
-      DisplayName: Initial display name
+      DisplayName: CodeKeeper CFN yaml E2E 1782743774
       Tags:
         - Key: RepositoryId
           Value: amsgitops/codekeeper-cfn-test
